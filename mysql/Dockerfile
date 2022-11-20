@@ -1,4 +1,4 @@
-FROM mysql:8.0.30
+FROM registry.cn-hangzhou.aliyuncs.com/zqqq/mysql:8.0.30-arm
 
 ADD nacos-mysql.sql /docker-entrypoint-initdb.d/nacos-mysql.sql
 

@@ -1,4 +1,4 @@
-FROM nacos/nacos-server:v2.1.2-slim
+FROM registry.cn-hangzhou.aliyuncs.com/zqqq/nacos-server:v2.1.2-slim-arm
 
 ENV PREFER_HOST_MODE=ip \
     MODE=standalone \
